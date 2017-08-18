@@ -1,0 +1,44 @@
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-position: left top;
+	background-repeat: repeat;
+	border-top: #000 30px solid;
+	text-align: center;
+	color: #CCC;
+	font-size: 75%;
+	font-family: "ƒƒCƒŠƒI", Verdana, "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;
+	line-height: 1.4;
+}
+
+#headbg {
+	width: 1100px;
+	margin: 0 auto;
+	background-image: url(../images/head_bg.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+footer {
+	background-image: url(../images/foot_bg.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	height: 175px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+}
+
+footer p {
+	padding-top: 140px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}

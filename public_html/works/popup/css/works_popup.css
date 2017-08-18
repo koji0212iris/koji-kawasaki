@@ -1,0 +1,90 @@
+
+body {
+	background-color: #000;
+	text-align: center;
+	color: #CCC;
+	font-size: 70%;
+	font-family: "ÉÅÉCÉäÉI", Verdana, "ÇlÇr ÇoÉSÉVÉbÉN", sans-serif;
+	line-height: 1.4;
+}
+
+#workspop {
+	width: 550px;
+	/*border: #999 1px solid;*/
+	margin: 0 auto;
+	padding: 25px;
+	text-align: left;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#workspop:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/*\*/
+* html #workspop {
+    height: 1em;
+    overflow: visible;
+}
+/**/
+
+#works-left {
+	float: left;
+	width: 230px;
+}
+
+#works-right {
+	float: right;
+	width: 300px;
+}
+
+h1 {
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+#launchsite {
+	margin-bottom: 20px;
+	line-height: 1.0;
+}
+
+#launchsite a:link {
+	color: #CCC;
+	text-decoration: none;
+}
+
+#launchsite a:visited {
+	color: #CCC;
+	text-decoration: none;
+}
+
+#launchsite a:hover {
+	color: #CCC;
+	text-decoration: none;
+	background-color: #666;
+}
+
+#launchsite a:active {
+	color: #CCC;
+	text-decoration: none;
+}
+
+h3 {
+	font-weight: normal;
+	color: #666;
+}
+
+.imgmargin {
+	margin-bottom: 20px;
+}
+

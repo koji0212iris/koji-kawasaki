@@ -1,0 +1,91 @@
+
+header {
+	height: 210px;
+	position: relative;
+}
+
+nav#ro {
+	width: 452px;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+nav#ro li {
+	float: left;
+}
+
+nav#ro li a{
+	display: block;
+	text-indent: -9999px;
+	height: 15px;
+	margin-right: 22px;
+	background-image: url(../../common/images/navi_sprite.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#navi01 {
+	background-position: 0 0;
+	width: 39px;
+}
+
+#navi01:hover,#navi01.hover{background-position:0 -26px;}
+	
+#navi02 {
+	background-position: -61px 0;
+	width: 82px;
+}
+
+#navi02:hover,#navi02.hover{background-position: -61px -26px;}
+	
+#navi03 {
+	background-position: -165px 0;
+	width: 72px;
+}
+
+#navi03:hover,#navi03.hover{background-position: -165px -26px;}
+
+#navi04 {
+	background-position: -256px 0;
+	width: 95px;
+}
+
+#navi04:hover,#navi04.hover{background-position: -256px -26px;}
+
+#navi05 {
+	background-position: -367px 0;
+	width: 54px;
+}
+
+#navi05:hover,#navi05.hover{background-position: -367px -26px;}
+
+nav#ro li.statuson {
+	text-indent: -9999px;
+	height: 15px;
+	background-image: url(../../common/images/navi_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -256px -26px;
+	width: 95px;
+	margin-right: 22px;
+}
+
+#contact-block {
+	width: 960px;
+	margin: 0 20px;
+	padding-bottom: 175px;
+}
+
+h2 {
+	border-bottom: #000 2px solid;
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+}
+
+.topic-p-margin {
+	margin-bottom: 20px;
+}
+
+.cftopic {
+	color: #999;
+}
