@@ -1,0 +1,47 @@
+
+//clearfix
+@mixin clearfix {
+	*zoom: 1;
+	
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+//デフォルトフォント
+@mixin fontdef {
+	font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	font-weight: normal;
+}
+
+//背景画像置換
+@mixin bgreplace {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+//背景画像置換解除
+@mixin bgreplaceclear {
+	text-indent: inherit;
+	white-space: inherit;
+	overflow: inherit;
+	width: auto;
+	height: auto;
+	background: none;
+}
+
+//Font Awesome疑似要素
+@mixin fontbefore($fontnum, $fontsize) {
+	font: normal normal normal $fontsize/1 FontAwesome;
+	content: $fontnum;
+	display: inline-block;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}

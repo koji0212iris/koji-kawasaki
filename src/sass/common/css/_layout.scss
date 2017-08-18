@@ -1,0 +1,16 @@
+@import "../../_media_queries.scss";
+@import "../../_module.scss";
+
+.tit-cnt {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+  flex-direction: column;
+
+  h1 {
+    font-size: 4.0rem;
+    color: #fff;
+  }
+}

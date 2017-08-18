@@ -1,0 +1,72 @@
+@import "../../_media_queries.scss";
+
+@import url(//fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(//fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+
+$cntWidth: 980px;
+
+html {
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	background-color: #222;
+	color: #333;
+	font-family: 'Fredericka the Great', 'Sawarabi Gothic', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	text-align: left;
+
+	@include mq-sp {
+		background-color: #FFF;
+	}
+}
+
+// base
+h1,h2,h3,h4,h5,p,object {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+img {
+	border: none;
+	vertical-align: bottom;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.wrap {
+	position: relative;
+	width: 100%;
+}
+
+
+br.pc {
+	display: inline;
+	@include mq-sp {
+		display: none;
+	}
+}
+
+br.sp {
+	display: none;
+	@include mq-sp {
+		display: inline;
+	}
+}
+
+a {
+	color: #333;
+	text-decoration: underline;
+
+	&:hover {
+		color: #999;
+	}
+}

@@ -1,0 +1,51 @@
+// Width
+
+$width-max: 980px;
+$width-pc-min: 769px;
+$width-tablet: 768px;
+$width-tablet-min: 641px;
+$width-smartphone: 640px;
+
+
+// Media Queries
+@mixin mq-max {
+// 最大表示: 980px 〜
+	@media print, screen and (min-width: $width-max) {
+		@content;
+	}
+}
+
+@mixin mq-pc {
+	// PC表示: 768px ～ 980px
+	@media only screen and (min-width: $width-tablet) and (max-width: $width-max) {
+		@content;
+	}
+}
+
+@mixin mq-pc_more {
+	// PC表示: 768px ～
+	@media only screen and (min-width: $width-pc-min) {
+		@content;
+	}
+}
+
+@mixin mq-tb {
+	// タブレット表示: 641px ～ 768px
+	@media only screen and (min-width: $width-tablet-min) and (max-width: $width-tablet) {
+		@content;
+	}
+}
+
+@mixin mq-tb_sp {
+	// タブレット・スマートフォン表示: ～ 768px
+	@media only screen and (max-width: $width-tablet) {
+		@content;
+	}
+}
+
+@mixin mq-sp {
+	// スマートフォン表示: 640px
+	@media only screen and (max-width: $width-smartphone) {
+		@content;
+	}
+}
